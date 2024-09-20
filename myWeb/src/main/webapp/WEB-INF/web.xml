@@ -52,4 +52,14 @@
     <dispatcher>INCLUDE</dispatcher>
     <dispatcher>ERROR</dispatcher>
   </filter-mapping>
+  <servlet>
+    <description></description>
+    <display-name>createCustomer</display-name>
+    <servlet-name>createCustomer</servlet-name>
+    <servlet-class>com.systex.controller.createCustomer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>createCustomer</servlet-name>
+    <url-pattern>/customer/createCustomer.do</url-pattern>
+  </servlet-mapping>
 </web-app>

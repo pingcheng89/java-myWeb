@@ -36,7 +36,6 @@ public class CreateCustomerController extends HttpServlet {
 		LinkedList<String> errorMsgs = new LinkedList<>();
 		request.setAttribute("errors", errorMsgs);
 		
-		
 		// 1. Retrieve Form Data
 		String name = request.getParameter("name");
 		String email = request.getParameter("email");
